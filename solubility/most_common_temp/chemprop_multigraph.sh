@@ -1,1 +1,0 @@
-chemprop_train --data_path Single_T_SolDB_train.csv --separate_val_path Single_T_SolDB_valid.csv --separate_test_path Single_T_SolDB_test.csv --dataset_type regression --save_dir chemprop_multigraph --number_of_molecules 2 --smiles_columns smiles solvent --target_columns logsol --epoch 200
