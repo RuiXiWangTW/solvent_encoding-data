@@ -61,7 +61,7 @@ cd chemprop/graph
 chemprop_train --data_path 2022_fold_0_train.csv --separate_test_path 2022_fold_0_test.csv --separate_val_path 2022_fold_0_valid.csv --save_dir model --save_preds --dataset_type regression --epoch 200 --target_columns logsol --number_of_molecules 2 --smiles_columns smiles solvent
 ```
 
-## Referrence
+## Reference
 1. Analyzing Learned Molecular Representations for Property Prediction <https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237> 
 
 2. Pharmacophoric-constrained heterogeneous graph transformer model for molecular property prediction <https://www.nature.com/articles/s42004-023-00857-x>
